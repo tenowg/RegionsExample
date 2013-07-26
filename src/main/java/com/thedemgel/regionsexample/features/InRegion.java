@@ -15,7 +15,6 @@ import com.thedemgel.regionsexample.detector.PlayersInRegion;
 import com.thedemgel.regionsexample.events.EnterRegionEvent;
 import com.thedemgel.regionsexample.events.LeaveRegionEvent;
 import org.spout.api.Spout;
-import org.spout.api.chat.ChatSection;
 import org.spout.api.entity.Player;
 import org.spout.api.event.player.PlayerChatEvent;
 
@@ -73,7 +72,7 @@ public class InRegion extends Feature implements Tickable {
 	@FeatureCommand(alias = "test")
 	public void doSomething(FeatureCommandArgs args) {
 		Spout.getLogger().info("Doing something");
-		for (ChatSection arg : args.getArgs().getRawArgs()) {
+		for (String arg : args.getArgs().get()) {
 			args.getPlayer().sendMessage(arg);
 		}
 	}

@@ -13,7 +13,7 @@ public class CustomEventParser extends EventParser {
 	public WorldPoint parse(EnterRegionEvent event) {
 		WorldPoint wp = new WorldPoint();
 		wp.setWorld(event.getPlayer().getWorld());
-		wp.setLoc(event.getPlayer().getScene().getPosition());
+		wp.setLoc(event.getPlayer().getPhysics().getPosition());
 		return wp;
 	}
 	

@@ -1,12 +1,12 @@
 package com.thedemgel.regionsexample.command;
 
-import org.spout.api.command.annotated.CommandPermissions;
-import org.spout.api.command.CommandContext;
 import org.spout.api.command.CommandSource;
-import org.spout.api.command.annotated.Command;
 import org.spout.api.exception.CommandException;
 
 import com.thedemgel.regionsexample.RegionsExamplePlugin;
+import org.spout.api.command.CommandArguments;
+import org.spout.api.command.annotated.CommandDescription;
+import org.spout.api.command.annotated.Permissible;
 
 /**
  * Provides an example of a class to hold commands.
@@ -21,9 +21,9 @@ public class RegionsExampleCommands {
 	/**
 	 * Provides an example command that can be issued to the Spout server.
 	 */
-	@Command(aliases = {"command", "cmd"}, desc = "This is an example of what a command might look like. Try it out with /cmd !", min = 0, max = 0)
-	@CommandPermissions("RegionsExample.some.permission")
-	public void exampleCommand(CommandContext args, CommandSource source) throws CommandException {
+	@CommandDescription(aliases = {"command", "cmd"}, desc = "This is an example of what a command might look like. Try it out with /cmd !")
+	@Permissible("RegionsExample.some.permission")
+	public void exampleCommand(CommandSource source, CommandArguments args) throws CommandException {
 		
 		// Calling this command will send whoever issued it the message below.
 		source.sendMessage("The RegionsExample plugin command has been successfully issued.");

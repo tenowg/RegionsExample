@@ -1,22 +1,19 @@
 package com.thedemgel.regionsexample;
 
 import com.thedemgel.regions.Regions;
-import org.spout.api.command.CommandRegistrationsFactory;
-import org.spout.api.command.RootCommand;
-import org.spout.api.command.annotated.AnnotatedCommandRegistrationFactory;
-import org.spout.api.command.annotated.SimpleAnnotatedCommandExecutorFactory;
-import org.spout.api.command.annotated.SimpleInjector;
-import org.spout.api.plugin.CommonPlugin;
+import com.thedemgel.regions.command.RazCommand;
 
 import com.thedemgel.regionsexample.command.RegionsExampleCommands;
 import com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration;
 import com.thedemgel.regionsexample.features.InRegion;
 import com.thedemgel.regionsexample.features.Owner;
+import org.spout.api.command.annotated.AnnotatedCommandExecutorFactory;
+import org.spout.api.plugin.Plugin;
 
 /**
  * Defines the main class of the plugin.
  */
-public class RegionsExamplePlugin extends CommonPlugin {
+public class RegionsExamplePlugin extends Plugin {
 	private static RegionsExamplePlugin instance;
 	private RegionsExampleConfiguration config;
 
@@ -33,9 +30,7 @@ public class RegionsExamplePlugin extends CommonPlugin {
 		Regions.getInstance().registerFeature(this, InRegion.class, new CustomEventParser());
 		Regions.getInstance().registerFeature(this, Owner.class);
 		// Register Commands
-		CommandRegistrationsFactory<Class<?>> commandRegFactory = new AnnotatedCommandRegistrationFactory(getEngine(), new SimpleInjector(this), new SimpleAnnotatedCommandExecutorFactory());
-		RootCommand root = getEngine().getRootCommand();
-		root.addSubCommands(this, RegionsExampleCommands.class, commandRegFactory);
+                AnnotatedCommandExecutorFactory.create(new RegionsExampleCommands(this));
 
 		// Register Events
 		getEngine().getEventManager().registerEvents(new RegionsExampleListener(this), this);
