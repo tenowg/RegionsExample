@@ -1,8 +1,7 @@
 package com.thedemgel.regionsexample;
 
 import com.thedemgel.regions.Regions;
-import com.thedemgel.regions.command.RazCommand;
-
+import com.thedemgel.regions.api.RegionAPI;
 import com.thedemgel.regionsexample.command.RegionsExampleCommands;
 import com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration;
 import com.thedemgel.regionsexample.features.InRegion;
@@ -27,8 +26,9 @@ public class RegionsExamplePlugin extends Plugin {
 
 	@Override
 	public void onEnable() {
-		Regions.getInstance().registerFeature(this, InRegion.class, new CustomEventParser());
-		Regions.getInstance().registerFeature(this, Owner.class);
+		RegionAPI.registerFeature(this, InRegion.class, new CustomEventParser());
+		RegionAPI.registerFeature(this, Owner.class);
+		
 		// Register Commands
                 AnnotatedCommandExecutorFactory.create(new RegionsExampleCommands(this));
 

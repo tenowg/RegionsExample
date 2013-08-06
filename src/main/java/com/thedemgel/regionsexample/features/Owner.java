@@ -7,7 +7,7 @@ import org.spout.api.util.list.concurrent.ConcurrentList;
 
 
 public class Owner extends Feature {
-	private ConcurrentList<String> owners = new ConcurrentList<>();
+	private ConcurrentList<String> owners = new ConcurrentList<String>();
 	
 	public void addOwner(Player player) {
 		owners.add(player.getName());
