@@ -6,7 +6,7 @@
     <link>http://maven.apache.org</link>
     <description>RegionsExample - Checkstyle report</description>
     <language>en-us</language>
-    <copyright>&#169;2013 Set your organization name here.</copyright>
+    <copyright>&#169;2013 Demgel OpenSource Coding</copyright>
     <item>
       <title>File: 11,
              Errors: 162,
@@ -52,35 +52,7 @@
                   0
                 </td>
                 <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.InRegion.java">com/thedemgel/regionsexample/features/InRegion.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
+                  19
                 </td>
               </tr>
                           <tr>
@@ -99,6 +71,34 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.InRegion.java">com/thedemgel/regionsexample/features/InRegion.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  45
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.CustomEventParser.java">com/thedemgel/regionsexample/CustomEventParser.java</a>
                 </td>
                 <td>
@@ -108,7 +108,7 @@
                   0
                 </td>
                 <td>
-                  8
+                  9
                 </td>
               </tr>
                           <tr>
@@ -136,7 +136,7 @@
                   0
                 </td>
                 <td>
-                  7
+                  6
                 </td>
               </tr>
                           <tr>
@@ -164,7 +164,7 @@
                   0
                 </td>
                 <td>
-                  19
+                  18
                 </td>
               </tr>
                           <tr>
