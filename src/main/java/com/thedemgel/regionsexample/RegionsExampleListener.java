@@ -10,12 +10,20 @@ import org.spout.api.event.Listener;
 public class RegionsExampleListener implements Listener {
 	private RegionsExamplePlugin plugin;
 
-	public RegionsExampleListener(RegionsExamplePlugin instance) {
+	/**
+	 *
+	 * @param instance RegionExamplePlugin instance.
+	 */
+	public RegionsExampleListener(final RegionsExamplePlugin instance) {
 		this.plugin = instance;
 	}
-	
+
+	/**
+	 * Executed on PlayerChat while in this region.
+	 * @param event PlayerChatEvent event
+	 */
 	@EventHandler
-	public void onPlayerChat(PlayerChatEvent event) {
+	public void onPlayerChat(final PlayerChatEvent event) {
 		// Do Something on PlayerChatEvent
 	}
 }

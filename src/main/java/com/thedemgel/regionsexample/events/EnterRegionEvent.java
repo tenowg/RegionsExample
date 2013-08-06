@@ -8,27 +8,27 @@ import org.spout.api.event.HandlerList;
 public class EnterRegionEvent extends Event {
 
 	private static HandlerList handlers = new HandlerList();
-	private Player player;
-	private Region region;
+	private final Player player;
+	private final Region region;
 
-	public EnterRegionEvent(Player player, Region region) {
-		this.player = player;
-		this.region = region;
+	public EnterRegionEvent(final Player enteringPlayer, final Region regionEntering) {
+		this.player = enteringPlayer;
+		this.region = regionEntering;
 	}
-	
+
 	public Player getPlayer() {
 		return player;
 	}
-	
+
 	public Region getRegion() {
 		return region;
 	}
-	
+
 	@Override
 	public HandlerList getHandlers() {
 		return handlers;
 	}
-
+	
 	public static HandlerList getHandlerList() {
 		return handlers;
 	}

@@ -1,6 +1,5 @@
 package com.thedemgel.regionsexample;
 
-import com.thedemgel.regions.Regions;
 import com.thedemgel.regions.api.RegionAPI;
 import com.thedemgel.regionsexample.command.RegionsExampleCommands;
 import com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration;
@@ -17,7 +16,7 @@ public class RegionsExamplePlugin extends Plugin {
 	private RegionsExampleConfiguration config;
 
 	@Override
-	public void onLoad() {
+	public final void onLoad() {
 		setInstance(this);
 		config = new RegionsExampleConfiguration(getDataFolder());
 		config.load();
@@ -25,10 +24,10 @@ public class RegionsExamplePlugin extends Plugin {
 	}
 
 	@Override
-	public void onEnable() {
+	public final void onEnable() {
 		RegionAPI.registerFeature(this, InRegion.class, new CustomEventParser());
 		RegionAPI.registerFeature(this, Owner.class);
-		
+
 		// Register Commands
                 AnnotatedCommandExecutorFactory.create(new RegionsExampleCommands(this));
 
@@ -39,11 +38,11 @@ public class RegionsExamplePlugin extends Plugin {
 	}
 
 	@Override
-	public void onDisable() {
+	public final void onDisable() {
 		getLogger().info("disabled.");
 	}
 
-	private static void setInstance(RegionsExamplePlugin plugin) {
+	private static void setInstance(final RegionsExamplePlugin plugin) {
 		instance = plugin;
 	}
 
@@ -51,7 +50,7 @@ public class RegionsExamplePlugin extends Plugin {
 		return instance;
 	}
 
-	public RegionsExampleConfiguration getConfig() {
+	public final RegionsExampleConfiguration getConfig() {
 		return config;
 	}
 }

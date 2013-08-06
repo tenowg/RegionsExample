@@ -11,20 +11,19 @@ public class LeaveRegionEvent extends Event {
 	private Player player;
 	private Region region;
 
-	public LeaveRegionEvent(Player player, Region region) {
-		this.player = player;
-		this.region = region;
-		System.out.println("Leaving");
+	public LeaveRegionEvent(Player leavingPlayer, Region regionLeaving) {
+		this.player = leavingPlayer;
+		this.region = regionLeaving;
 	}
-	
+
 	public Player getPlayer() {
 		return player;
 	}
-	
+
 	public Region getRegion() {
 		return region;
 	}
-	
+
 	@Override
 	public HandlerList getHandlers() {
 		return handlers;

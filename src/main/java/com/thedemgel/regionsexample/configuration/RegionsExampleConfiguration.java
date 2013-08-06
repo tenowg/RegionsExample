@@ -1,6 +1,5 @@
 package com.thedemgel.regionsexample.configuration;
 
-
 import com.thedemgel.regionsexample.RegionsExamplePlugin;
 
 import java.io.File;

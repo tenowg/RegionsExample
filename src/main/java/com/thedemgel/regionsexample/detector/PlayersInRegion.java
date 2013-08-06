@@ -1,4 +1,3 @@
-
 package com.thedemgel.regionsexample.detector;
 
 import com.thedemgel.regions.component.WorldRegionComponent;
@@ -14,6 +13,9 @@ import org.spout.api.entity.Player;
 import org.spout.api.geo.World;
 
 
+/**
+ * PlayersInRegion is a Detector that will detect all players in a Region.
+ */
 public class PlayersInRegion extends Detector {
 	private Set<Player> players = Collections.newSetFromMap(new ConcurrentHashMap<Player, Boolean>());
 
@@ -37,9 +39,8 @@ public class PlayersInRegion extends Detector {
 			}
 		}
 	}
-	
+
 	public Set<Player> getPlayers() {
 		return players;
 	}
-
 }
