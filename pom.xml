@@ -10,10 +10,19 @@
 	<url>http://maven.apache.org</url>
 	<inceptionYear>2013</inceptionYear>
 	<description>Set your description here.</description>
-    
+
+	<developers>
+		<developer>
+			<id>tenowg</id>
+			<name>Craig Russell</name>
+			<timezone>5</timezone>
+			<url>http://github.com/tenowg</url>
+		</developer>
+	</developers>
+	
 	<organization>
-		<name>Set your organization name here.</name>
-		<url>http://set.your.url.here</url>
+		<name>Demgel OpenSource Coding</name>
+		<url>http://tenowg.github.io/</url>
 	</organization>
 	
 	<distributionManagement>
@@ -186,6 +195,9 @@
 					<outputEncoding>UTF-8</outputEncoding>
 				</configuration>
 			</plugin>
+			
+			
+			
 		</plugins>
 	</build>
 	
