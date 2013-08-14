@@ -52,35 +52,7 @@
                   0
                 </td>
                 <td>
-                  13
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.InRegion.java">com/thedemgel/regionsexample/features/InRegion.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  34
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
+                  14
                 </td>
               </tr>
                           <tr>
@@ -99,6 +71,34 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.InRegion.java">com/thedemgel/regionsexample/features/InRegion.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.CustomEventParser.java">com/thedemgel/regionsexample/CustomEventParser.java</a>
                 </td>
                 <td>
@@ -109,20 +109,6 @@
                 </td>
                 <td>
                   4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration.java">com/thedemgel/regionsexample/configuration/RegionsExampleConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
                 </td>
               </tr>
                           <tr>
@@ -141,6 +127,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration.java">com/thedemgel/regionsexample/configuration/RegionsExampleConfiguration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.detector.PlayerInRegion.java">com/thedemgel/regionsexample/detector/PlayerInRegion.java</a>
                 </td>
                 <td>
@@ -150,7 +150,7 @@
                   0
                 </td>
                 <td>
-                  2
+                  1
                 </td>
               </tr>
                           <tr>
@@ -164,7 +164,7 @@
                   0
                 </td>
                 <td>
-                  13
+                  12
                 </td>
               </tr>
                           <tr>
@@ -178,7 +178,7 @@
                   0
                 </td>
                 <td>
-                  6
+                  7
                 </td>
               </tr>
                       </tbody>
