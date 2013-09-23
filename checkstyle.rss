@@ -52,6 +52,20 @@
                   0
                 </td>
                 <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
                   14
                 </td>
               </tr>
@@ -66,21 +80,7 @@
                   0
                 </td>
                 <td>
-                  34
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.features.Owner.java">com/thedemgel/regionsexample/features/Owner.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
+                  35
                 </td>
               </tr>
                           <tr>
@@ -113,20 +113,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.RegionsExampleListener.java">com/thedemgel/regionsexample/RegionsExampleListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.configuration.RegionsExampleConfiguration.java">com/thedemgel/regionsexample/configuration/RegionsExampleConfiguration.java</a>
                 </td>
                 <td>
@@ -141,6 +127,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.RegionsExampleListener.java">com/thedemgel/regionsexample/RegionsExampleListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://maven.apache.org/checkstyle.html#com.thedemgel.regionsexample.detector.PlayerInRegion.java">com/thedemgel/regionsexample/detector/PlayerInRegion.java</a>
                 </td>
                 <td>
@@ -150,7 +150,7 @@
                   0
                 </td>
                 <td>
-                  2
+                  1
                 </td>
               </tr>
                           <tr>
@@ -164,7 +164,7 @@
                   0
                 </td>
                 <td>
-                  12
+                  13
                 </td>
               </tr>
                           <tr>
@@ -178,7 +178,7 @@
                   0
                 </td>
                 <td>
-                  6
+                  7
                 </td>
               </tr>
                       </tbody>
